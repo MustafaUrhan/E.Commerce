@@ -16,7 +16,7 @@ namespace E.Common.UOW
         {
             if (context == null)
             {
-                throw new Exception("NullDbContextException");
+                throw new ArgumentNullException(nameof(context));
             }
             _context = context;
             _transaction = _context.Database.BeginTransaction();

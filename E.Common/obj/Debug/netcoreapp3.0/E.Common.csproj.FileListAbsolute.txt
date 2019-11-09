@@ -3,8 +3,6 @@ C:\Users\CCC\source\repos\E.Commerse\E.Common\bin\Debug\netcoreapp3.0\E.Common.d
 C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.csprojAssemblyReference.cache
 C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.AssemblyInfoInputs.cache
 C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.AssemblyInfo.cs
-C:\Users\CCC\source\repos\E.Commerse\E.Common\bin\Debug\netcoreapp3.0\E.Common.runtimeconfig.json
-C:\Users\CCC\source\repos\E.Commerse\E.Common\bin\Debug\netcoreapp3.0\E.Common.runtimeconfig.dev.json
 C:\Users\CCC\source\repos\E.Commerse\E.Common\bin\Debug\netcoreapp3.0\E.Common.pdb
 C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.dll
 C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.pdb
