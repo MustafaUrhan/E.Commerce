@@ -6,6 +6,6 @@ namespace E.Common.UOW
 {
     public interface IUnitOfWork:IDisposable
     {
-        bool SaveChanges();
+       int SaveChanges();
     }
 }

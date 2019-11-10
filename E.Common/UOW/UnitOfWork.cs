@@ -33,22 +33,22 @@ namespace E.Common.UOW
                 //Hatalar Loglanabilir
             }             
         }
-        public bool SaveChanges()
+        public int SaveChanges()
         {
-            bool resultOfSaveChanges = false;
+            int resultOfSaveChanges =-1;
             try
             {
-                
-                _context.SaveChanges();
+
+                resultOfSaveChanges= _context.SaveChanges();
                 _transaction.Commit();
-                resultOfSaveChanges =true;
+             
 
             }
             catch (Exception ex)
             {
 
                 _transaction.Rollback();
-                resultOfSaveChanges = false;
+                resultOfSaveChanges = _context.SaveChanges();
                 //Hatalar Loglanabilir
 
             }
