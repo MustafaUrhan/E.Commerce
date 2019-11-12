@@ -6,3 +6,11 @@ C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.A
 C:\Users\CCC\source\repos\E.Commerse\E.Common\bin\Debug\netcoreapp3.0\E.Common.pdb
 C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.dll
 C:\Users\CCC\source\repos\E.Commerse\E.Common\obj\Debug\netcoreapp3.0\E.Common.pdb
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\bin\Debug\netcoreapp3.0\E.Common.deps.json
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\bin\Debug\netcoreapp3.0\E.Common.dll
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\bin\Debug\netcoreapp3.0\E.Common.pdb
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\obj\Debug\netcoreapp3.0\E.Common.csprojAssemblyReference.cache
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\obj\Debug\netcoreapp3.0\E.Common.AssemblyInfoInputs.cache
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\obj\Debug\netcoreapp3.0\E.Common.AssemblyInfo.cs
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\obj\Debug\netcoreapp3.0\E.Common.dll
+C:\Users\mustafa.urhan\Desktop\RecomSys_V.5.0\E.Commerce\E.Common\obj\Debug\netcoreapp3.0\E.Common.pdb

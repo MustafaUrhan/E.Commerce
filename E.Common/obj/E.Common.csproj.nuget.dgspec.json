@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CCC\\source\\repos\\E.Commerse\\E.Common\\E.Common.csproj": {}
+    "C:\\Users\\mustafa.urhan\\Desktop\\RecomSys_V.5.0\\E.Commerce\\E.Common\\E.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CCC\\source\\repos\\E.Commerse\\E.Common\\E.Common.csproj": {
+    "C:\\Users\\mustafa.urhan\\Desktop\\RecomSys_V.5.0\\E.Commerce\\E.Common\\E.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CCC\\source\\repos\\E.Commerse\\E.Common\\E.Common.csproj",
+        "projectUniqueName": "C:\\Users\\mustafa.urhan\\Desktop\\RecomSys_V.5.0\\E.Commerce\\E.Common\\E.Common.csproj",
         "projectName": "E.Common",
-        "projectPath": "C:\\Users\\CCC\\source\\repos\\E.Commerse\\E.Common\\E.Common.csproj",
-        "packagesPath": "C:\\Users\\CCC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CCC\\source\\repos\\E.Commerse\\E.Common\\obj\\",
+        "projectPath": "C:\\Users\\mustafa.urhan\\Desktop\\RecomSys_V.5.0\\E.Commerce\\E.Common\\E.Common.csproj",
+        "packagesPath": "C:\\Users\\mustafa.urhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustafa.urhan\\Desktop\\RecomSys_V.5.0\\E.Commerce\\E.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\CCC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mustafa.urhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

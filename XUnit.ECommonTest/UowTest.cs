@@ -10,27 +10,27 @@ namespace XUnit.ECommonTest
 {
     public class UowTest
     {
-        private SqliteConnection connection;
-        private DbContextOptions<TestDbContext> options;
 
-        public UowTest()
-        {
-            this.connection = new SqliteConnection("DataSource=:memory:");
-            if (connection.State==System.Data.ConnectionState.Open) { connection.Close(); }
-            this.options = new DbContextOptionsBuilder<TestDbContext>().UseSqlite(connection).Options;
-        }
 
         [Fact]
         public void Add_Single_User()
         {
-
+            var connection = new SqliteConnection("DataSource=:memory:");
 
             try
             {
                 connection.Open();
                 using (connection)
                 {
-                   
+                    var options = new DbContextOptionsBuilder<TestDbContext>()
+                   .UseSqlite(connection)
+                   .Options;
+
+                    // Create the schema in the database
+                    using (var context = new TestDbContext(options))
+                    {
+                        context.Database.EnsureCreated();
+                    }
                     using (var context = new TestDbContext(options))
                     {
                         var _repo = new Repository<UserTest>(context);
@@ -62,12 +62,22 @@ namespace XUnit.ECommonTest
         [Fact]
         public void Add_Multiple_Users()
         {
+            var connection = new SqliteConnection("DataSource=:memory:");
+
             try
             {
                 connection.Open();
                 using (connection)
                 {
-                   
+                    var options = new DbContextOptionsBuilder<TestDbContext>()
+                   .UseSqlite(connection)
+                   .Options;
+
+                    // Create the schema in the database
+                    using (var context = new TestDbContext(options))
+                    {
+                        context.Database.EnsureCreated();
+                    }
 
                     using (var context = new TestDbContext(options))
                     {
@@ -114,12 +124,22 @@ namespace XUnit.ECommonTest
         [Fact]
         public void Update_User()
         {
+            var connection = new SqliteConnection("DataSource=:memory:");
+
             try
             {
                 connection.Open();
                 using (connection)
                 {
-                 
+                    var options = new DbContextOptionsBuilder<TestDbContext>()
+                   .UseSqlite(connection)
+                   .Options;
+
+                    // Create the schema in the database
+                    using (var context = new TestDbContext(options))
+                    {
+                        context.Database.EnsureCreated();
+                    }
                     using (var context = new TestDbContext(options))
                     {
                         var _repo = new Repository<UserTest>(context);
